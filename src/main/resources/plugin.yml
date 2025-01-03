@@ -1,0 +1,11 @@
+name: Player_Management
+version: '${project.version}'
+main: org.nyanneko0113.player_management.Main
+
+commands:
+  normal_ban:
+    description: Banさせるコマンド
+    permission: player_management.commands.normal_ban
+  normal_mute:
+    description: Muteさせるコマンド
+    permission: player_management.commands.normal_mute
